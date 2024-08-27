@@ -17,10 +17,10 @@ mv ~/.cache/nvim ~/.cache/nvim.bak
 ### Or Delete current nvim config
 
 ```shell
-rm ~/.config/nvim
-rm ~/.local/share/nvim
-rm ~/.local/state/nvim
-rm ~/.cache/nvim
+rm -rf ~/.config/nvim
+rm -rf ~/.local/share/nvim
+rm -rf ~/.local/state/nvim
+rm - rf ~/.cache/nvim
 ```
 
 #### Create a new user repository from this template
