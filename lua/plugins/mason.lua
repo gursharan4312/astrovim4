@@ -16,7 +16,6 @@ return {
         "rust_analyzer",
         "svelte",
         "pyright",
-        "ruff",
         "unocss",
         "tailwindcss",
       },
