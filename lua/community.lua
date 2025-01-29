@@ -10,8 +10,7 @@ return {
   { import = "astrocommunity.pack.go" },
   { import = "astrocommunity.pack.java" },
 
-  { import = "astrocommunity.completion.copilot-lua-cmp" },
-  
+  { import = "astrocommunity.completion.copilot-cmp" },
 
   { import = "astrocommunity.git.git-blame-nvim" },
   { import = "astrocommunity.git.diffview-nvim" },
