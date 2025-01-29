@@ -17,7 +17,8 @@ return {
 
   { import = "astrocommunity.scrolling.vim-smoothie" },
   { import = "astrocommunity.indent.indent-tools-nvim" },
-  { import = "astrocommunity.colorscheme.tokyonight-nvim" },
+  { import = "astrocommunity.colorscheme.catppuccin" },
+  -- { import = "astrocommunity.colorscheme.tokyonight-nvim" },
   -- { import = "astrocommunity.bars-and-lines.dropbar-nvim" },
   { import = "astrocommunity.bars-and-lines.lualine-nvim" }, -- bottom status bar line
   { import = "astrocommunity.bars-and-lines.vim-illuminate" }, -- highlight selected word
