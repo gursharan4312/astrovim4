@@ -8,7 +8,8 @@ return {
   { import = "astrocommunity.pack.lua" },
   { import = "astrocommunity.pack.typescript" },
   { import = "astrocommunity.pack.go" },
-  { import = "astrocommunity.pack.java" },
+  -- { import = "astrocommunity.pack.java" },
+  -- { import = "astrocommunity.lsp.nvim-java" },
 
   { import = "astrocommunity.completion.copilot-cmp" },
 
@@ -22,5 +23,7 @@ return {
   -- { import = "astrocommunity.bars-and-lines.dropbar-nvim" },
   { import = "astrocommunity.bars-and-lines.lualine-nvim" }, -- bottom status bar line
   { import = "astrocommunity.bars-and-lines.vim-illuminate" }, -- highlight selected word
+
+  { import = "astrocommunity.terminal-integration.flatten-nvim" }, -- open files in current vim from terminal
   -- import/override with your plugins folder
 }

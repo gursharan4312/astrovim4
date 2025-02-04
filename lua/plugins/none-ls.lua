@@ -20,5 +20,12 @@ return {
       null_ls.builtins.formatting.stylua,
       null_ls.builtins.formatting.prettier,
     })
+    vim.api.nvim_create_autocmd("BufWritePre", {
+      pattern = { "*.lua", "*.js", "*.ts", "*.json", "*.css", "*.html" },
+      callback = function()
+        -- You can adjust the timeout or use async = true if needed.
+        vim.lsp.buf.format { async = false }
+      end,
+    })
   end,
 }
