@@ -8,7 +8,7 @@ return {
   { import = "astrocommunity.pack.lua" },
   { import = "astrocommunity.pack.typescript" },
   { import = "astrocommunity.pack.go" },
-  -- { import = "astrocommunity.pack.java" },
+  { import = "astrocommunity.pack.java" },
   { import = "astrocommunity.lsp.nvim-java" },
 
   { import = "astrocommunity.completion.copilot-cmp" },

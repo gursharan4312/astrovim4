@@ -64,7 +64,7 @@ return {
           "svelte",
           "blade.php",
           "blade",
-          "python",
+          -- "python",
           "rust",
         },
         init_options = {
