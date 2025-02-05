@@ -36,14 +36,14 @@ return {
     "jay-babu/mason-nvim-dap.nvim",
     opts = {
       ensure_installed = {
-        -- "python",
+        "python",
         "node",
         "react",
         "html",
         "css",
         "javascript",
         "typescript",
-        -- "rust",
+        "rust",
         "tailwindcss",
         -- "javadbg",
         -- "javatest",
