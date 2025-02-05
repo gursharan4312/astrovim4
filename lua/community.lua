@@ -9,7 +9,7 @@ return {
   { import = "astrocommunity.pack.typescript" },
   { import = "astrocommunity.pack.go" },
   { import = "astrocommunity.pack.java" },
-  { import = "astrocommunity.lsp.nvim-java" },
+  -- { import = "astrocommunity.lsp.nvim-java" },
   {
     "mfussenegger/nvim-jdtls",
     opts = {
