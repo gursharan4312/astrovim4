@@ -8,7 +8,31 @@ return {
   { import = "astrocommunity.pack.lua" },
   { import = "astrocommunity.pack.typescript" },
   { import = "astrocommunity.pack.go" },
-  -- { import = "astrocommunity.pack.java" },
+  { import = "astrocommunity.pack.java" },
+  {
+    "mfussenegger/nvim-jdtls",
+    opts = {
+      settings = {
+        java = {
+          configuration = {
+            runtimes = {
+              {
+                name = "JavaSE-21",
+                path = "/Users/gursharan.singh/.jenv/shims/java",
+              },
+            },
+          },
+        },
+        format = {
+          enabled = true,
+          -- settings = { -- you can use your preferred format style
+          --   url = "https://raw.githubusercontent.com/google/styleguide/gh-pages/eclipse-java-google-style.xml",
+          --   profile = "GoogleStyle",
+          -- },
+        },
+      },
+    },
+  },
   -- { import = "astrocommunity.lsp.nvim-java" },
 
   { import = "astrocommunity.completion.copilot-cmp" },
