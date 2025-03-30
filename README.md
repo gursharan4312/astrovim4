@@ -32,10 +32,10 @@ You can also just clone this repository directly if you do not want to track you
 #### Clone the repository
 
 ```shell
-git clone https://github.com/gursharan4312/astrovim4 ~/.config/nvim
+git clone https://github.com/gursharan4312/astrovim5 ~/.config/nvim
 ```
 ```shell
-git clone git@github.com:gursharan4312/astrovim4.git ~/.config/nvim
+git clone git@github.com:gursharan4312/astrovim5.git ~/.config/nvim
 ```
 
 #### Start Neovim
