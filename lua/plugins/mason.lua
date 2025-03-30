@@ -1,52 +1,27 @@
--- if true then return {} end -- WARN: REMOVE THIS LINE TO ACTIVATE THIS FILE
+if true then return {} end -- WARN: REMOVE THIS LINE TO ACTIVATE THIS FILE
+
+-- Customize Mason
 
 ---@type LazySpec
 return {
+  -- use mason-tool-installer for automatically installing Mason packages
   {
-    "williamboman/mason-lspconfig.nvim",
+    "WhoIsSethDaniel/mason-tool-installer.nvim",
+    -- overrides `require("mason-tool-installer").setup(...)`
     opts = {
+      -- Make sure to use the names found in `:Mason`
       ensure_installed = {
-        "lua_ls",
-        "html",
-        "cssls",
-        "cssmodules_ls",
-        "eslint",
-        "jsonls",
-        "ltex",
-        "rust_analyzer",
-        "svelte",
-        "pyright",
-        "unocss",
-        "tailwindcss",
-        -- "jdtls",
-      },
-      auto_install = true,
-    },
-  },
-  {
-    "jay-babu/mason-null-ls.nvim",
-    opts = {
-      ensure_installed = {
-        "prettier",
+        -- install language servers
+        "lua-language-server",
+
+        -- install formatters
         "stylua",
-      },
-    },
-  },
-  {
-    "jay-babu/mason-nvim-dap.nvim",
-    opts = {
-      ensure_installed = {
-        -- "python",
-        "node",
-        "react",
-        "html",
-        "css",
-        "javascript",
-        "typescript",
-        "rust",
-        "tailwindcss",
-        -- "javadbg",
-        -- "javatest",
+
+        -- install debuggers
+        "debugpy",
+
+        -- install any other package
+        "tree-sitter-cli",
       },
     },
   },
