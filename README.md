@@ -14,6 +14,14 @@ mv ~/.local/share/nvim ~/.local/share/nvim.bak
 mv ~/.local/state/nvim ~/.local/state/nvim.bak
 mv ~/.cache/nvim ~/.cache/nvim.bak
 ```
+### Or Delete current nvim config
+
+```shell
+rm -rf ~/.config/nvim
+rm -rf ~/.local/share/nvim
+rm -rf ~/.local/state/nvim
+rm -rf ~/.cache/nvim
+```
 
 #### Create a new user repository from this template
 
@@ -25,6 +33,9 @@ You can also just clone this repository directly if you do not want to track you
 
 ```shell
 git clone https://github.com/gursharan4312/astrovim4 ~/.config/nvim
+```
+```shell
+git clone git@github.com:gursharan4312/astrovim4.git ~/.config/nvim
 ```
 
 #### Start Neovim
